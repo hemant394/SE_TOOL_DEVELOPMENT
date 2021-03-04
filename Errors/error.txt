@@ -1,0 +1,7 @@
+test1.cpp: In function ‘int main()’:
+test1.cpp:4:6: error: storage size of ‘a’ isn’t known
+    4 |  int a[ ];
+      |      ^
+test1.cpp:5:6: error: storage size of ‘b’ isn’t known
+    5 |  int b[ ];
+      |      ^
