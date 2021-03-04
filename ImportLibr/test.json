@@ -1,0 +1,20 @@
+{
+ "find":"algorithm",
+ "find_of":"algorithm",
+ "sort":"algorithm",
+ "equal":"algorithm",
+ "all_of":"algorithm",
+ "for_each":"algorithm",
+ "find_if":"algorithm",
+ "find_each":"algorithm",
+ "find_end":"algorithm",
+ "fill":"algorithm",
+ "fill_n":"algorithm",
+ "max":"algorithm",
+ "min":"algorithm",
+ "minmax":"algorithm",
+ "merge":"algorithm",
+ "move":"algorithm"
+
+
+}
