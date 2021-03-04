@@ -11,11 +11,18 @@ int main()
 newfile.open("error.txt",ios::in); //open a file to perform read operation using file object
    if (newfile.is_open()){   //checking whether the file is open
       string error;
-      
-      while(getline(newfile, error)){  //read data from file object and put it into string.
+      getline(newfile, error);
       p=error.size();
+   if(p>1){
+         cout << "error found  \n"<<error<<"\n";
+      
+         
+   }
+   
+
+      while(getline(newfile, error)){  //read data from file object and put it into string.
       if(p>=1){
-         cout << "error found /n "<< error << "\n";   //print the data of the string
+         cout << error << "\n";   //print the data of the string
       }
       
       }
@@ -24,7 +31,7 @@ newfile.open("error.txt",ios::in); //open a file to perform read operation using
 	
 	if(p<1){
          cout << " no error found  \n";
-        // system("g++ prog1.cpp");
+      
          system("./a.out");
    }
     
